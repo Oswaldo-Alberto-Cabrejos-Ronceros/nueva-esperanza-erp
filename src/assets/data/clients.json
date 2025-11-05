@@ -1,0 +1,902 @@
+[
+  {
+    "clientId": 1,
+    "dni": "70123456",
+    "names": "Sofía",
+    "lastnames": "Martínez Flores",
+    "phone": "912345678",
+    "address": "Calle Los Pinos 123",
+    "birthdate": "10-05-1990",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "sofia.martinez@example.com",
+    "user": {
+      "userId": 201,
+      "email": "sofia.martinez.user@example.com"
+    }
+  },
+  {
+    "clientId": 2,
+    "dni": "70234567",
+    "names": "Andrés",
+    "lastnames": "Gómez Salas",
+    "phone": "923456789",
+    "address": "Avenida El Sol 456",
+    "birthdate": "22-08-1985",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "andres.gomez@example.com",
+    "user": {
+      "userId": 202,
+      "email": "andres.gomez.user@example.com"
+    }
+  },
+  {
+    "clientId": 3,
+    "dni": "70345678",
+    "names": "Valeria",
+    "lastnames": "Pérez Rojas",
+    "phone": "934567890",
+    "address": "Jirón La Luna 789",
+    "birthdate": "03-01-1993",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "valeria.perez@example.com",
+    "user": {
+      "userId": 203,
+      "email": "valeria.perez.user@example.com"
+    }
+  },
+  {
+    "clientId": 4,
+    "dni": "70456789",
+    "names": "Diego",
+    "lastnames": "Torres Soto",
+    "phone": "945678901",
+    "address": "Calle Las Palmeras 101",
+    "birthdate": "15-11-1978",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "diego.torres@example.com",
+    "user": {
+      "userId": 204,
+      "email": "diego.torres.user@example.com"
+    }
+  },
+  {
+    "clientId": 5,
+    "dni": "70567890",
+    "names": "Carolina",
+    "lastnames": "Núñez Castro",
+    "phone": "956789012",
+    "address": "Avenida Primavera 202",
+    "birthdate": "28-04-1996",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "carolina.nunez@example.com",
+    "user": {
+      "userId": 205,
+      "email": "carolina.nunez.user@example.com"
+    }
+  },
+  {
+    "clientId": 6,
+    "dni": "70678901",
+    "names": "Javier",
+    "lastnames": "Díaz Mendoza",
+    "phone": "967890123",
+    "address": "Jirón Los Rosales 303",
+    "birthdate": "07-07-1982",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "javier.diaz@example.com",
+    "user": {
+      "userId": 206,
+      "email": "javier.diaz.user@example.com"
+    }
+  },
+  {
+    "clientId": 7,
+    "dni": "70789012",
+    "names": "Mariana",
+    "lastnames": "Flores Cueva",
+    "phone": "978901234",
+    "address": "Calle La Paz 404",
+    "birthdate": "01-02-1991",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "mariana.flores@example.com",
+    "user": {
+      "userId": 207,
+      "email": "mariana.flores.user@example.com"
+    }
+  },
+  {
+    "clientId": 8,
+    "dni": "70890123",
+    "names": "Ricardo",
+    "lastnames": "Ramírez Vargas",
+    "phone": "989012345",
+    "address": "Avenida Las Leyendas 505",
+    "birthdate": "19-09-1975",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "ricardo.ramirez@example.com",
+    "user": {
+      "userId": 208,
+      "email": "ricardo.ramirez.user@example.com"
+    }
+  },
+  {
+    "clientId": 9,
+    "dni": "70901234",
+    "names": "Alexandra",
+    "lastnames": "Vásquez Luna",
+    "phone": "990123456",
+    "address": "Jirón Ancash 606",
+    "birthdate": "05-06-1994",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "alexandra.vasquez@example.com",
+    "user": {
+      "userId": 209,
+      "email": "alexandra.vasquez.user@example.com"
+    }
+  },
+  {
+    "clientId": 10,
+    "dni": "71012345",
+    "names": "Fernando",
+    "lastnames": "Contreras Reyes",
+    "phone": "901234567",
+    "address": "Calle Bolívar 707",
+    "birthdate": "11-03-1980",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "fernando.contreras@example.com",
+    "user": {
+      "userId": 210,
+      "email": "fernando.contreras.user@example.com"
+    }
+  },
+  {
+    "clientId": 11,
+    "dni": "71123456",
+    "names": "Andrea",
+    "lastnames": "Silva Núñez",
+    "phone": "912345670",
+    "address": "Avenida Los Álamos 808",
+    "birthdate": "24-10-1992",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "andrea.silva@example.com",
+    "user": {
+      "userId": 211,
+      "email": "andrea.silva.user@example.com"
+    }
+  },
+  {
+    "clientId": 12,
+    "dni": "71234567",
+    "names": "Esteban",
+    "lastnames": "Cruz Quispe",
+    "phone": "923456701",
+    "address": "Jirón Puno 909",
+    "birthdate": "08-05-1987",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "esteban.cruz@example.com",
+    "user": {
+      "userId": 212,
+      "email": "esteban.cruz.user@example.com"
+    }
+  },
+  {
+    "clientId": 13,
+    "dni": "71345678",
+    "names": "Laura",
+    "lastnames": "Ferrer Vidal",
+    "phone": "934567012",
+    "address": "Calle Callao 1010",
+    "birthdate": "02-01-1990",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "laura.ferrer@example.com",
+    "user": {
+      "userId": 213,
+      "email": "laura.ferrer.user@example.com"
+    }
+  },
+  {
+    "clientId": 14,
+    "dni": "71456789",
+    "names": "Gabriel",
+    "lastnames": "Ponce Herrera",
+    "phone": "945670123",
+    "address": "Avenida Grau 1111",
+    "birthdate": "16-07-1984",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "gabriel.ponce@example.com",
+    "user": {
+      "userId": 214,
+      "email": "gabriel.ponce.user@example.com"
+    }
+  },
+  {
+    "clientId": 15,
+    "dni": "71567890",
+    "names": "Daniela",
+    "lastnames": "Cárdenas Espinoza",
+    "phone": "956701234",
+    "address": "Jirón Cuzco 1212",
+    "birthdate": "29-03-1995",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "daniela.cardenas@example.com",
+    "user": {
+      "userId": 215,
+      "email": "daniela.cardenas.user@example.com"
+    }
+  },
+  {
+    "clientId": 16,
+    "dni": "71678901",
+    "names": "Sebastián",
+    "lastnames": "Benites López",
+    "phone": "967012345",
+    "address": "Calle Tarapacá 1313",
+    "birthdate": "04-11-1977",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "sebastian.benites@example.com",
+    "user": {
+      "userId": 216,
+      "email": "sebastian.benites.user@example.com"
+    }
+  },
+  {
+    "clientId": 17,
+    "dni": "71789012",
+    "names": "Camila",
+    "lastnames": "Ríos Castillo",
+    "phone": "970123456",
+    "address": "Avenida Arequipa 1414",
+    "birthdate": "18-06-1993",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "camila.rios@example.com",
+    "user": {
+      "userId": 217,
+      "email": "camila.rios.user@example.com"
+    }
+  },
+  {
+    "clientId": 18,
+    "dni": "71890123",
+    "names": "Adrián",
+    "lastnames": "Vega Bravo",
+    "phone": "901234567",
+    "address": "Jirón Ayacucho 1515",
+    "birthdate": "30-01-1981",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "adrian.vega@example.com",
+    "user": {
+      "userId": 218,
+      "email": "adrian.vega.user@example.com"
+    }
+  },
+  {
+    "clientId": 19,
+    "dni": "71901234",
+    "names": "Renata",
+    "lastnames": "Solís Otero",
+    "phone": "912345678",
+    "address": "Calle Colón 1616",
+    "birthdate": "06-09-1996",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "renata.solis@example.com",
+    "user": {
+      "userId": 219,
+      "email": "renata.solis.user@example.com"
+    }
+  },
+  {
+    "clientId": 20,
+    "dni": "72012345",
+    "names": "Nicolás",
+    "lastnames": "Palacios Mora",
+    "phone": "923456789",
+    "address": "Avenida Angamos 1717",
+    "birthdate": "13-04-1988",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "nicolas.palacios@example.com",
+    "user": {
+      "userId": 220,
+      "email": "nicolas.palacios.user@example.com"
+    }
+  },
+  {
+    "clientId": 21,
+    "dni": "72123456",
+    "names": "Lucía",
+    "lastnames": "Salazar Mendoza",
+    "phone": "934567890",
+    "address": "Jirón Ucayali 1818",
+    "birthdate": "25-11-1990",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "lucia.salazar@example.com",
+    "user": {
+      "userId": 221,
+      "email": "lucia.salazar.user@example.com"
+    }
+  },
+  {
+    "clientId": 22,
+    "dni": "72234567",
+    "names": "Marcelo",
+    "lastnames": "Luna Rojas",
+    "phone": "945678901",
+    "address": "Calle La Mar 1919",
+    "birthdate": "09-07-1983",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "marcelo.luna@example.com",
+    "user": {
+      "userId": 222,
+      "email": "marcelo.luna.user@example.com"
+    }
+  },
+  {
+    "clientId": 23,
+    "dni": "72345678",
+    "names": "Antonella",
+    "lastnames": "Reyes Soto",
+    "phone": "956789012",
+    "address": "Avenida El Polo 2020",
+    "birthdate": "03-02-1994",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "antonella.reyes@example.com",
+    "user": {
+      "userId": 223,
+      "email": "antonella.reyes.user@example.com"
+    }
+  },
+  {
+    "clientId": 24,
+    "dni": "72456789",
+    "names": "Gonzalo",
+    "lastnames": "Vargas León",
+    "phone": "967890123",
+    "address": "Jirón Junín 2121",
+    "birthdate": "17-10-1976",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "gonzalo.vargas@example.com",
+    "user": {
+      "userId": 224,
+      "email": "gonzalo.vargas.user@example.com"
+    }
+  },
+  {
+    "clientId": 25,
+    "dni": "72567890",
+    "names": "Mariana",
+    "lastnames": "Delgado Flores",
+    "phone": "978901234",
+    "address": "Calle La Encalada 2222",
+    "birthdate": "29-05-1991",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "mariana.delgado@example.com",
+    "user": {
+      "userId": 225,
+      "email": "mariana.delgado.user@example.com"
+    }
+  },
+  {
+    "clientId": 26,
+    "dni": "72678901",
+    "names": "Arturo",
+    "lastnames": "Quispe Díaz",
+    "phone": "989012345",
+    "address": "Avenida Javier Prado 2323",
+    "birthdate": "08-01-1989",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "arturo.quispe@example.com",
+    "user": {
+      "userId": 226,
+      "email": "arturo.quispe.user@example.com"
+    }
+  },
+  {
+    "clientId": 27,
+    "dni": "72789012",
+    "names": "Romina",
+    "lastnames": "García Pérez",
+    "phone": "990123456",
+    "address": "Jirón Huaraz 2424",
+    "birthdate": "02-04-1996",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "romina.garcia@example.com",
+    "user": {
+      "userId": 227,
+      "email": "romina.garcia.user@example.com"
+    }
+  },
+  {
+    "clientId": 28,
+    "dni": "72890123",
+    "names": "Bruno",
+    "lastnames": "Herrera Montes",
+    "phone": "901234567",
+    "address": "Calle Los Girasoles 2525",
+    "birthdate": "15-12-1974",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "bruno.herrera@example.com",
+    "user": {
+      "userId": 228,
+      "email": "bruno.herrera.user@example.com"
+    }
+  },
+  {
+    "clientId": 29,
+    "dni": "72901234",
+    "names": "Natalia",
+    "lastnames": "Ortega López",
+    "phone": "912345678",
+    "address": "Avenida Primavera 2626",
+    "birthdate": "28-08-1993",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "natalia.ortega@example.com",
+    "user": {
+      "userId": 229,
+      "email": "natalia.ortega.user@example.com"
+    }
+  },
+  {
+    "clientId": 30,
+    "dni": "73012345",
+    "names": "Manuel",
+    "lastnames": "Martínez Salas",
+    "phone": "923456789",
+    "address": "Jirón Cuzco 2727",
+    "birthdate": "03-03-1986",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "manuel.martinez@example.com",
+    "user": {
+      "userId": 230,
+      "email": "manuel.martinez.user@example.com"
+    }
+  },
+  {
+    "clientId": 31,
+    "dni": "73123456",
+    "names": "Gabriela",
+    "lastnames": "Paz Núñez",
+    "phone": "934567890",
+    "address": "Calle Sucre 2828",
+    "birthdate": "16-09-1995",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "gabriela.paz@example.com",
+    "user": {
+      "userId": 231,
+      "email": "gabriela.paz.user@example.com"
+    }
+  },
+  {
+    "clientId": 32,
+    "dni": "73234567",
+    "names": "Cristian",
+    "lastnames": "Cueva Medina",
+    "phone": "945678901",
+    "address": "Avenida La Marina 2929",
+    "birthdate": "29-02-1980",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "cristian.cueva@example.com",
+    "user": {
+      "userId": 232,
+      "email": "cristian.cueva.user@example.com"
+    }
+  },
+  {
+    "clientId": 33,
+    "dni": "73345678",
+    "names": "Daniel",
+    "lastnames": "Silva Rojas",
+    "phone": "956789012",
+    "address": "Jirón Cusco 3030",
+    "birthdate": "04-07-1992",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "daniel.silva@example.com",
+    "user": {
+      "userId": 233,
+      "email": "daniel.silva.user@example.com"
+    }
+  },
+  {
+    "clientId": 34,
+    "dni": "73456789",
+    "names": "Valentina",
+    "lastnames": "Ramírez Soto",
+    "phone": "967890123",
+    "address": "Calle Las Acacias 3131",
+    "birthdate": "17-02-1985",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "valentina.ramirez@example.com",
+    "user": {
+      "userId": 234,
+      "email": "valentina.ramirez.user@example.com"
+    }
+  },
+  {
+    "clientId": 35,
+    "dni": "73567890",
+    "names": "Felipe",
+    "lastnames": "Sánchez Morales",
+    "phone": "978901234",
+    "address": "Avenida 28 de Julio 3232",
+    "birthdate": "29-09-1990",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "felipe.sanchez@example.com",
+    "user": {
+      "userId": 235,
+      "email": "felipe.sanchez.user@example.com"
+    }
+  },
+  {
+    "clientId": 36,
+    "dni": "73678901",
+    "names": "Emilia",
+    "lastnames": "Vásquez Díaz",
+    "phone": "989012345",
+    "address": "Jirón Huancayo 3333",
+    "birthdate": "05-06-1979",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "emilia.vasquez@example.com",
+    "user": {
+      "userId": 236,
+      "email": "emilia.vasquez.user@example.com"
+    }
+  },
+  {
+    "clientId": 37,
+    "dni": "73789012",
+    "names": "Jorge",
+    "lastnames": "Contreras Quispe",
+    "phone": "990123456",
+    "address": "Calle La Fontana 3434",
+    "birthdate": "12-03-1994",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "jorge.contreras@example.com",
+    "user": {
+      "userId": 237,
+      "email": "jorge.contreras.user@example.com"
+    }
+  },
+  {
+    "clientId": 38,
+    "dni": "73890123",
+    "names": "Florencia",
+    "lastnames": "Jiménez Paredes",
+    "phone": "901234567",
+    "address": "Avenida Del Ejército 3535",
+    "birthdate": "24-10-1987",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "florencia.jimenez@example.com",
+    "user": {
+      "userId": 238,
+      "email": "florencia.jimenez.user@example.com"
+    }
+  },
+  {
+    "clientId": 39,
+    "dni": "73901234",
+    "names": "Roberto",
+    "lastnames": "Ruiz Morales",
+    "phone": "912345678",
+    "address": "Jirón Abancay 3636",
+    "birthdate": "01-05-1991",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "roberto.ruiz@example.com",
+    "user": {
+      "userId": 239,
+      "email": "roberto.ruiz.user@example.com"
+    }
+  },
+  {
+    "clientId": 40,
+    "dni": "74012345",
+    "names": "Victoria",
+    "lastnames": "Castillo Rivera",
+    "phone": "923456789",
+    "address": "Calle Los Sauces 3737",
+    "birthdate": "13-11-1975",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "victoria.castillo@example.com",
+    "user": {
+      "userId": 240,
+      "email": "victoria.castillo.user@example.com"
+    }
+  },
+  {
+    "clientId": 41,
+    "dni": "74123456",
+    "names": "Santiago",
+    "lastnames": "Guerrero León",
+    "phone": "934567890",
+    "address": "Avenida Salaverry 3838",
+    "birthdate": "25-07-1996",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "santiago.guerrero@example.com",
+    "user": {
+      "userId": 241,
+      "email": "santiago.guerrero.user@example.com"
+    }
+  },
+  {
+    "clientId": 42,
+    "dni": "74234567",
+    "names": "Julieta",
+    "lastnames": "Mendoza Rojas",
+    "phone": "945678901",
+    "address": "Jirón Ica 3939",
+    "birthdate": "02-02-1982",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "julieta.mendoza@example.com",
+    "user": {
+      "userId": 242,
+      "email": "julieta.mendoza.user@example.com"
+    }
+  },
+  {
+    "clientId": 43,
+    "dni": "74345678",
+    "names": "Lucas",
+    "lastnames": "Silva Núñez",
+    "phone": "956789012",
+    "address": "Calle Los Cedros 4040",
+    "birthdate": "14-09-1994",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "lucas.silva@example.com",
+    "user": {
+      "userId": 243,
+      "email": "lucas.silva.user@example.com"
+    }
+  },
+  {
+    "clientId": 44,
+    "dni": "74456789",
+    "names": "Camila",
+    "lastnames": "Cruz Quispe",
+    "phone": "967890123",
+    "address": "Avenida Sucre 4141",
+    "birthdate": "26-04-1989",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "camila.cruz@example.com",
+    "user": {
+      "userId": 244,
+      "email": "camila.cruz.user@example.com"
+    }
+  },
+  {
+    "clientId": 45,
+    "dni": "74567890",
+    "names": "Benjamín",
+    "lastnames": "Ferrer Reyes",
+    "phone": "978901234",
+    "address": "Jirón Amazonas 4242",
+    "birthdate": "03-01-1977",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "benjamin.ferrer@example.com",
+    "user": {
+      "userId": 245,
+      "email": "benjamin.ferrer.user@example.com"
+    }
+  },
+  {
+    "clientId": 46,
+    "dni": "74678901",
+    "names": "Isabella",
+    "lastnames": "Vidal Ponce",
+    "phone": "989012345",
+    "address": "Calle Las Américas 4343",
+    "birthdate": "15-08-1990",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "isabella.vidal@example.com",
+    "user": {
+      "userId": 246,
+      "email": "isabella.vidal.user@example.com"
+    }
+  },
+  {
+    "clientId": 47,
+    "dni": "74789012",
+    "names": "Mateo",
+    "lastnames": "Cárdenas Soto",
+    "phone": "990123456",
+    "address": "Avenida Pardo 4444",
+    "birthdate": "28-03-1984",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "mateo.cardenas@example.com",
+    "user": {
+      "userId": 247,
+      "email": "mateo.cardenas.user@example.com"
+    }
+  },
+  {
+    "clientId": 48,
+    "dni": "74890123",
+    "names": "Mariano",
+    "lastnames": "Espinoza Torres",
+    "phone": "901234567",
+    "address": "Jirón Junín 4545",
+    "birthdate": "04-10-1993",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "email": "mariano.espinoza@example.com",
+    "user": {
+      "userId": 248,
+      "email": "mariano.espinoza.user@example.com"
+    }
+  },
+  {
+    "clientId": 49,
+    "dni": "74901234",
+    "names": "Sara",
+    "lastnames": "Benites López",
+    "phone": "912345678",
+    "address": "Calle Los Naranjos 4646",
+    "birthdate": "16-05-1978",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "email": "sara.benites@example.com",
+    "user": {
+      "userId": 249,
+      "email": "sara.benites.user@example.com"
+    }
+  },
+  {
+    "clientId": 50,
+    "dni": "75012345",
+    "names": "Joaquín",
+    "lastnames": "Ríos Castillo",
+    "phone": "923456789",
+    "address": "Avenida San Felipe 4747",
+    "birthdate": "29-12-1992",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "email": "joaquin.rios@example.com",
+    "user": {
+      "userId": 250,
+      "email": "joaquin.rios.user@example.com"
+    }
+  }
+]

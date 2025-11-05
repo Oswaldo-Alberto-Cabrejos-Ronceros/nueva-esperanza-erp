@@ -1,0 +1,172 @@
+[
+  {
+    "headquarterId": 1,
+    "assignedServices": [
+      { "id": 1, "headquarterId": 1, "serviceId": 1, "serviceName": "Baño Básico" },
+      { "id": 2, "headquarterId": 1, "serviceId": 2, "serviceName": "Corte de Uñas" }
+    ],
+    "unassignedServices": [
+      { "id": 3, "headquarterId": 1, "serviceId": 3, "serviceName": "Consulta General" },
+      { "id": 4, "headquarterId": 1, "serviceId": 4, "serviceName": "Vacuna Antirrábica" }
+    ]
+  },
+  {
+    "headquarterId": 2,
+    "assignedServices": [
+      { "id": 5, "headquarterId": 2, "serviceId": 5, "serviceName": "Limpieza Dental" }
+    ],
+    "unassignedServices": [
+      { "id": 6, "headquarterId": 2, "serviceId": 6, "serviceName": "Desparasitación" },
+      { "id": 7, "headquarterId": 2, "serviceId": 7, "serviceName": "Corte de Pelo Estético" }
+    ]
+  },
+  {
+    "headquarterId": 3,
+    "assignedServices": [
+      { "id": 8, "headquarterId": 3, "serviceId": 8, "serviceName": "Limpieza de Oídos" },
+      { "id": 9, "headquarterId": 3, "serviceId": 9, "serviceName": "Chequeo Post-Operación" },
+      { "id": 10, "headquarterId": 3, "serviceId": 10, "serviceName": "Vacunación Trivalente" }
+    ],
+    "unassignedServices": []
+  },
+  {
+    "headquarterId": 4,
+    "assignedServices": [],
+    "unassignedServices": [
+      { "id": 11, "headquarterId": 4, "serviceId": 11, "serviceName": "Spa Felino" },
+      { "id": 12, "headquarterId": 4, "serviceId": 12, "serviceName": "Tratamiento Dermatológico" }
+    ]
+  },
+  {
+    "headquarterId": 5,
+    "assignedServices": [
+      { "id": 13, "headquarterId": 5, "serviceId": 13, "serviceName": "Revisión Geriátrica" },
+      { "id": 14, "headquarterId": 5, "serviceId": 14, "serviceName": "Lavado Medicado" }
+    ],
+    "unassignedServices": [
+      { "id": 15, "headquarterId": 5, "serviceId": 15, "serviceName": "Examen de Sangre" }
+    ]
+  },
+  {
+    "headquarterId": 6,
+    "assignedServices": [
+      { "id": 16, "headquarterId": 6, "serviceId": 16, "serviceName": "Corte de Pelo Corto" }
+    ],
+    "unassignedServices": []
+  },
+  {
+    "headquarterId": 7,
+    "assignedServices": [
+      { "id": 17, "headquarterId": 7, "serviceId": 17, "serviceName": "Limpieza de Glándulas" },
+      { "id": 18, "headquarterId": 7, "serviceId": 18, "serviceName": "Tratamiento para Pulgas" }
+    ],
+    "unassignedServices": []
+  },
+  {
+    "headquarterId": 8,
+    "assignedServices": [
+      { "id": 3, "headquarterId": 8, "serviceId": 3, "serviceName": "Consulta General" }
+    ],
+    "unassignedServices": [
+      { "id": 6, "headquarterId": 8, "serviceId": 6, "serviceName": "Desparasitación" },
+      { "id": 12, "headquarterId": 8, "serviceId": 12, "serviceName": "Tratamiento Dermatológico" }
+    ]
+  },
+  {
+    "headquarterId": 9,
+    "assignedServices": [
+      { "id": 1, "headquarterId": 9, "serviceId": 1, "serviceName": "Baño Básico" },
+      { "id": 5, "headquarterId": 9, "serviceId": 5, "serviceName": "Limpieza Dental" },
+      { "id": 9, "headquarterId": 9, "serviceId": 9, "serviceName": "Chequeo Post-Operación" }
+    ],
+    "unassignedServices": []
+  },
+  {
+    "headquarterId": 10,
+    "assignedServices": [],
+    "unassignedServices": [
+      { "id": 10, "headquarterId": 10, "serviceId": 10, "serviceName": "Vacunación Trivalente" }
+    ]
+  },
+  {
+    "headquarterId": 1,
+    "assignedServices": [
+      { "id": 4, "headquarterId": 1, "serviceId": 4, "serviceName": "Vacuna Antirrábica" },
+      { "id": 11, "headquarterId": 1, "serviceId": 11, "serviceName": "Spa Felino" }
+    ],
+    "unassignedServices": []
+  },
+  {
+    "headquarterId": 2,
+    "assignedServices": [],
+    "unassignedServices": [
+      { "id": 8, "headquarterId": 2, "serviceId": 8, "serviceName": "Limpieza de Oídos" },
+      { "id": 17, "headquarterId": 2, "serviceId": 17, "serviceName": "Limpieza de Glándulas" }
+    ]
+  },
+  {
+    "headquarterId": 3,
+    "assignedServices": [
+      { "id": 2, "headquarterId": 3, "serviceId": 2, "serviceName": "Corte de Uñas" }
+    ],
+    "unassignedServices": []
+  },
+  {
+    "headquarterId": 4,
+    "assignedServices": [
+      { "id": 13, "headquarterId": 4, "serviceId": 13, "serviceName": "Revisión Geriátrica" }
+    ],
+    "unassignedServices": [
+      { "id": 18, "headquarterId": 4, "serviceId": 18, "serviceName": "Tratamiento para Pulgas" }
+    ]
+  },
+  {
+    "headquarterId": 5,
+    "assignedServices": [],
+    "unassignedServices": []
+  },
+  {
+    "headquarterId": 6,
+    "assignedServices": [
+      { "id": 7, "headquarterId": 6, "serviceId": 7, "serviceName": "Corte de Pelo Estético" }
+    ],
+    "unassignedServices": [
+      { "id": 16, "headquarterId": 6, "serviceId": 16, "serviceName": "Corte de Pelo Corto" }
+    ]
+  },
+  {
+    "headquarterId": 7,
+    "assignedServices": [],
+    "unassignedServices": [
+      { "id": 15, "headquarterId": 7, "serviceId": 15, "serviceName": "Examen de Sangre" }
+    ]
+  },
+  {
+    "headquarterId": 8,
+    "assignedServices": [
+      { "id": 14, "headquarterId": 8, "serviceId": 14, "serviceName": "Lavado Medicado" },
+      { "id": 10, "headquarterId": 8, "serviceId": 10, "serviceName": "Vacunación Trivalente" }
+    ],
+    "unassignedServices": []
+  },
+  {
+    "headquarterId": 9,
+    "assignedServices": [
+      { "id": 1, "headquarterId": 9, "serviceId": 1, "serviceName": "Baño Básico" },
+      { "id": 5, "headquarterId": 9, "serviceId": 5, "serviceName": "Limpieza Dental" },
+      { "id": 9, "headquarterId": 9, "serviceId": 9, "serviceName": "Chequeo Post-Operación" }
+    ],
+    "unassignedServices": [
+      { "id": 21, "headquarterId": 9, "serviceId": 3, "serviceName": "Consulta General" },
+      { "id": 22, "headquarterId": 9, "serviceId": 4, "serviceName": "Vacuna Antirrábica" }
+    ]
+  },
+  {
+    "headquarterId": 10,
+    "assignedServices": [
+      { "id": 6, "headquarterId": 10, "serviceId": 6, "serviceName": "Desparasitación" },
+      { "id": 18, "headquarterId": 10, "serviceId": 18, "serviceName": "Tratamiento para Pulgas" }
+    ],
+    "unassignedServices": []
+  }
+]

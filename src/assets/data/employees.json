@@ -1,0 +1,1102 @@
+[
+  {
+    "userId": 1,
+    "employeeId": 1001,
+    "dni": "54107260",
+    "cmvp": "78178910",
+    "names": "María",
+    "lastnames": "Rojas Quispe",
+    "address": "Avenida Quispe 691",
+    "phone": "984677212",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "24/07/1980",
+    "dirImage": "/images/employees/1.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 2,
+    "employeeId": 1002,
+    "dni": "12345678",
+    "cmvp": "11223344",
+    "names": "Juan",
+    "lastnames": "Pérez Gonzáles",
+    "address": "Calle Los Álamos 123",
+    "phone": "977889900",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "15/03/1992",
+    "dirImage": "/images/employees/2.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 3,
+    "employeeId": 1003,
+    "dni": "87654321",
+    "cmvp": "55667788",
+    "names": "Ana",
+    "lastnames": "Díaz Castro",
+    "address": "Jirón La Paz 456",
+    "phone": "966554433",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "01/11/1985",
+    "dirImage": "/images/employees/3.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 4,
+    "employeeId": 1004,
+    "dni": "98765432",
+    "cmvp": null,
+    "names": "Carlos",
+    "lastnames": "Ramírez Vargas",
+    "address": "Avenida El Sol 789",
+    "phone": "955443322",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "20/09/1975",
+    "dirImage": "/images/employees/4.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 5,
+    "employeeId": 1005,
+    "dni": "23456789",
+    "cmvp": "99001122",
+    "names": "Laura",
+    "lastnames": "Gómez Salas",
+    "address": "Calle Manco Cápac 101",
+    "phone": "944332211",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "08/02/1990",
+    "dirImage": "/images/employees/5.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 6,
+    "employeeId": 1006,
+    "dni": "34567890",
+    "cmvp": "22334455",
+    "names": "Pedro",
+    "lastnames": "Torres Fuentes",
+    "address": "Avenida 28 de Julio 202",
+    "phone": "933221100",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "12/06/1988",
+    "dirImage": "/images/employees/6.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 7,
+    "employeeId": 1007,
+    "dni": "45678901",
+    "cmvp": "66778899",
+    "names": "Sofía",
+    "lastnames": "Núñez Salazar",
+    "address": "Jirón Puno 303",
+    "phone": "922110099",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "29/01/1995",
+    "dirImage": "/images/employees/7.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 8,
+    "employeeId": 1008,
+    "dni": "56789012",
+    "cmvp": null,
+    "names": "Ricardo",
+    "lastnames": "Flores Soto",
+    "address": "Calle Garcilaso 404",
+    "phone": "911009988",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "05/04/1982",
+    "dirImage": "/images/employees/8.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 9,
+    "employeeId": 1009,
+    "dni": "67890123",
+    "cmvp": "10101010",
+    "names": "Elena",
+    "lastnames": "Vásquez Mendoza",
+    "address": "Avenida Grau 505",
+    "phone": "900998877",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "18/07/1993",
+    "dirImage": "/images/employees/9.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 10,
+    "employeeId": 1010,
+    "dni": "78901234",
+    "cmvp": "21212121",
+    "names": "Gabriel",
+    "lastnames": "Contreras Rojas",
+    "address": "Jirón Bolívar 606",
+    "phone": "999887766",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "22/12/1987",
+    "dirImage": "/images/employees/10.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 11,
+    "employeeId": 1011,
+    "dni": "89012345",
+    "cmvp": "32323232",
+    "names": "Diana",
+    "lastnames": "Jiménez Paredes",
+    "address": "Calle Colón 707",
+    "phone": "988776655",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "03/05/1991",
+    "dirImage": "/images/employees/11.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 12,
+    "employeeId": 1012,
+    "dni": "90123456",
+    "cmvp": null,
+    "names": "Fernando",
+    "lastnames": "Sánchez Díaz",
+    "address": "Avenida Tacna 808",
+    "phone": "977665544",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "10/08/1979",
+    "dirImage": "/images/employees/12.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 13,
+    "employeeId": 1013,
+    "dni": "01234567",
+    "cmvp": "43434343",
+    "names": "Valeria",
+    "lastnames": "Ruiz Morales",
+    "address": "Jirón Cusco 909",
+    "phone": "966554433",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "25/11/1994",
+    "dirImage": "/images/employees/13.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 14,
+    "employeeId": 1014,
+    "dni": "12345670",
+    "cmvp": "54545454",
+    "names": "Hugo",
+    "lastnames": "Castillo Rivera",
+    "address": "Calle Ayacucho 111",
+    "phone": "955443322",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "14/01/1983",
+    "dirImage": "/images/employees/14.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 15,
+    "employeeId": 1015,
+    "dni": "23456781",
+    "cmvp": "65656565",
+    "names": "Mónica",
+    "lastnames": "Guerrero León",
+    "address": "Avenida Pardo 222",
+    "phone": "944332211",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "07/09/1986",
+    "dirImage": "/images/employees/15.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 16,
+    "employeeId": 1016,
+    "dni": "34567892",
+    "cmvp": null,
+    "names": "Javier",
+    "lastnames": "Mendoza Rojas",
+    "address": "Jirón Junín 333",
+    "phone": "933221100",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "02/03/1977",
+    "dirImage": "/images/employees/16.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 17,
+    "employeeId": 1017,
+    "dni": "45678903",
+    "cmvp": "76767676",
+    "names": "Andrea",
+    "lastnames": "Silva Núñez",
+    "address": "Calle La Mar 444",
+    "phone": "922110099",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "11/10/1990",
+    "dirImage": "/images/employees/17.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 18,
+    "employeeId": 1018,
+    "dni": "56789014",
+    "cmvp": "87878787",
+    "names": "Luis",
+    "lastnames": "Cruz Quispe",
+    "address": "Avenida 9 de Diciembre 555",
+    "phone": "911009988",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "19/06/1989",
+    "dirImage": "/images/employees/18.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 19,
+    "employeeId": 1019,
+    "dni": "67890125",
+    "cmvp": "98989898",
+    "names": "Carolina",
+    "lastnames": "Ferrer Reyes",
+    "address": "Jirón Ancash 666",
+    "phone": "900998877",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "04/02/1996",
+    "dirImage": "/images/employees/19.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 20,
+    "employeeId": 1020,
+    "dni": "78901236",
+    "cmvp": null,
+    "names": "Miguel",
+    "lastnames": "Vidal Ponce",
+    "address": "Calle Callao 777",
+    "phone": "999887766",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "21/07/1984",
+    "dirImage": "/images/employees/20.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 21,
+    "employeeId": 1021,
+    "dni": "89012347",
+    "cmvp": "11223344",
+    "names": "Alejandra",
+    "lastnames": "Cárdenas Soto",
+    "address": "Avenida Los Incas 888",
+    "phone": "988776655",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "28/04/1993",
+    "dirImage": "/images/employees/21.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 22,
+    "employeeId": 1022,
+    "dni": "90123458",
+    "cmvp": "22334455",
+    "names": "Diego",
+    "lastnames": "Espinoza Torres",
+    "address": "Jirón Arequipa 999",
+    "phone": "977665544",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "09/01/1981",
+    "dirImage": "/images/employees/22.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 23,
+    "employeeId": 1023,
+    "dni": "01234569",
+    "cmvp": "33445566",
+    "names": "Natalia",
+    "lastnames": "Benites López",
+    "address": "Calle Cuzco 100",
+    "phone": "966554433",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "16/09/1995",
+    "dirImage": "/images/employees/23.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 24,
+    "employeeId": 1024,
+    "dni": "12345672",
+    "cmvp": null,
+    "names": "Sergio",
+    "lastnames": "Ríos Castillo",
+    "address": "Avenida Del Ejército 200",
+    "phone": "955443322",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "06/07/1978",
+    "dirImage": "/images/employees/24.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 25,
+    "employeeId": 1025,
+    "dni": "23456783",
+    "cmvp": "44556677",
+    "names": "Daniela",
+    "lastnames": "Vega Paredes",
+    "address": "Jirón Huancavelica 300",
+    "phone": "944332211",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "23/02/1992",
+    "dirImage": "/images/employees/25.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 26,
+    "employeeId": 1026,
+    "dni": "34567894",
+    "cmvp": "55667788",
+    "names": "Jorge",
+    "lastnames": "Bravo Solís",
+    "address": "Calle San Martín 400",
+    "phone": "933221100",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "30/05/1985",
+    "dirImage": "/images/employees/26.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 27,
+    "employeeId": 1027,
+    "dni": "45678905",
+    "cmvp": "66778899",
+    "names": "Camila",
+    "lastnames": "Otero Castro",
+    "address": "Avenida José Pardo 500",
+    "phone": "922110099",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "05/12/1994",
+    "dirImage": "/images/employees/27.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 28,
+    "employeeId": 1028,
+    "dni": "56789016",
+    "cmvp": null,
+    "names": "Roberto",
+    "lastnames": "Palacios Mora",
+    "address": "Jirón Moquegua 600",
+    "phone": "911009988",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "17/08/1976",
+    "dirImage": "/images/employees/28.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 29,
+    "employeeId": 1029,
+    "dni": "67890127",
+    "cmvp": "77889900",
+    "names": "Isabella",
+    "lastnames": "Salazar Mendoza",
+    "address": "Calle Pizarro 700",
+    "phone": "900998877",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "13/03/1991",
+    "dirImage": "/images/employees/29.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 30,
+    "employeeId": 1030,
+    "dni": "78901238",
+    "cmvp": "88990011",
+    "names": "Gonzalo",
+    "lastnames": "Luna Rojas",
+    "address": "Avenida Tupac Amaru 800",
+    "phone": "999887766",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "01/01/1987",
+    "dirImage": "/images/employees/30.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 31,
+    "employeeId": 1031,
+    "dni": "89012349",
+    "cmvp": "99001122",
+    "names": "Paula",
+    "lastnames": "Reyes Soto",
+    "address": "Jirón Bolognesi 900",
+    "phone": "988776655",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "10/04/1990",
+    "dirImage": "/images/employees/31.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 32,
+    "employeeId": 1032,
+    "dni": "90123450",
+    "cmvp": null,
+    "names": "Renato",
+    "lastnames": "Vargas León",
+    "address": "Calle Arica 1000",
+    "phone": "977665544",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "22/09/1974",
+    "dirImage": "/images/employees/32.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 33,
+    "employeeId": 1033,
+    "dni": "01234561",
+    "cmvp": "10101010",
+    "names": "Fernanda",
+    "lastnames": "Delgado Flores",
+    "address": "Avenida 2 de Mayo 1100",
+    "phone": "966554433",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "08/11/1996",
+    "dirImage": "/images/employees/33.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 34,
+    "employeeId": 1034,
+    "dni": "12345673",
+    "cmvp": "21212121",
+    "names": "Marco",
+    "lastnames": "Quispe Vargas",
+    "address": "Jirón Carabaya 1200",
+    "phone": "955443322",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "14/06/1983",
+    "dirImage": "/images/employees/34.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 35,
+    "employeeId": 1035,
+    "dni": "23456784",
+    "cmvp": "32323232",
+    "names": "Luciana",
+    "lastnames": "García Pérez",
+    "address": "Calle Las Begonias 1300",
+    "phone": "944332211",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "26/01/1988",
+    "dirImage": "/images/employees/35.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 36,
+    "employeeId": 1036,
+    "dni": "34567895",
+    "cmvp": null,
+    "names": "Manuel",
+    "lastnames": "Herrera Díaz",
+    "address": "Avenida Salaverry 1400",
+    "phone": "933221100",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "03/07/1975",
+    "dirImage": "/images/employees/36.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 37,
+    "employeeId": 1037,
+    "dni": "45678906",
+    "cmvp": "43434343",
+    "names": "Adriana",
+    "lastnames": "Ortega López",
+    "address": "Jirón Washington 1500",
+    "phone": "922110099",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "19/05/1993",
+    "dirImage": "/images/employees/37.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 38,
+    "employeeId": 1038,
+    "dni": "56789017",
+    "cmvp": "54545454",
+    "names": "Arturo",
+    "lastnames": "Martínez Salas",
+    "address": "Calle Los Fresnos 1600",
+    "phone": "911009988",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "27/10/1989",
+    "dirImage": "/images/employees/38.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 39,
+    "employeeId": 1039,
+    "dni": "67890128",
+    "cmvp": "65656565",
+    "names": "Mariana",
+    "lastnames": "Paz Núñez",
+    "address": "Avenida Benavides 1700",
+    "phone": "900998877",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "04/08/1995",
+    "dirImage": "/images/employees/39.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 40,
+    "employeeId": 1040,
+    "dni": "78901239",
+    "cmvp": null,
+    "names": "Esteban",
+    "lastnames": "Cueva Medina",
+    "address": "Jirón Azángaro 1800",
+    "phone": "999887766",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "12/03/1977",
+    "dirImage": "/images/employees/40.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 41,
+    "employeeId": 1041,
+    "dni": "89012340",
+    "cmvp": "76767676",
+    "names": "Patricia",
+    "lastnames": "Silva Rojas",
+    "address": "Calle Los Laureles 1900",
+    "phone": "988776655",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "29/06/1992",
+    "dirImage": "/images/employees/41.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 42,
+    "employeeId": 1042,
+    "dni": "90123451",
+    "cmvp": "87878787",
+    "names": "Andrés",
+    "lastnames": "Ramírez Soto",
+    "address": "Avenida Del Aire 2000",
+    "phone": "977665544",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "06/02/1980",
+    "dirImage": "/images/employees/42.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 43,
+    "employeeId": 1043,
+    "dni": "01234562",
+    "cmvp": "98989898",
+    "names": "Gabriela",
+    "lastnames": "Sánchez Morales",
+    "address": "Jirón Ayacucho 2100",
+    "phone": "966554433",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "15/11/1994",
+    "dirImage": "/images/employees/43.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 44,
+    "employeeId": 1044,
+    "dni": "12345674",
+    "cmvp": null,
+    "names": "Raúl",
+    "lastnames": "Vásquez Díaz",
+    "address": "Calle Loreto 2200",
+    "phone": "955443322",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "23/07/1979",
+    "dirImage": "/images/employees/44.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 45,
+    "employeeId": 1045,
+    "dni": "23456785",
+    "cmvp": "11223344",
+    "names": "Pilar",
+    "lastnames": "Contreras Quispe",
+    "address": "Avenida Dos de Mayo 2300",
+    "phone": "944332211",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "30/09/1991",
+    "dirImage": "/images/employees/45.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 46,
+    "employeeId": 1046,
+    "dni": "34567896",
+    "cmvp": "22334455",
+    "names": "Javier",
+    "lastnames": "Jiménez Paredes",
+    "address": "Jirón Unión 2400",
+    "phone": "933221100",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "07/04/1986",
+    "dirImage": "/images/employees/46.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  },
+  {
+    "userId": 47,
+    "employeeId": 1047,
+    "dni": "45678907",
+    "cmvp": "33445566",
+    "names": "Silvia",
+    "lastnames": "Ruiz Morales",
+    "address": "Calle Primavera 2500",
+    "phone": "922110099",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "14/12/1993",
+    "dirImage": "/images/employees/47.jpg",
+    "roles": [
+      {
+        "roleId": 3,
+        "name": "Encargado Sede"
+      }
+    ]
+  },
+  {
+    "userId": 48,
+    "employeeId": 1048,
+    "dni": "56789018",
+    "cmvp": null,
+    "names": "Antonio",
+    "lastnames": "Castillo Rivera",
+    "address": "Avenida Aviación 2600",
+    "phone": "911009988",
+    "headquarter": {
+      "headquarterId": 3,
+      "name": "sede guadalupe"
+    },
+    "birthDate": "21/08/1978",
+    "dirImage": "/images/employees/48.jpg",
+    "roles": [
+      {
+        "roleId": 4,
+        "name": "Administrador"
+      }
+    ]
+  },
+  {
+    "userId": 49,
+    "employeeId": 1049,
+    "dni": "67890129",
+    "cmvp": "44556677",
+    "names": "Beatriz",
+    "lastnames": "Guerrero León",
+    "address": "Jirón Gamarra 2700",
+    "phone": "900998877",
+    "headquarter": {
+      "headquarterId": 2,
+      "name": "sede parcona"
+    },
+    "birthDate": "28/01/1990",
+    "dirImage": "/images/employees/49.jpg",
+    "roles": [
+      {
+        "roleId": 1,
+        "name": "Recepcionista"
+      }
+    ]
+  },
+  {
+    "userId": 50,
+    "employeeId": 1050,
+    "dni": "78901230",
+    "cmvp": "55667788",
+    "names": "Felipe",
+    "lastnames": "Mendoza Rojas",
+    "address": "Calle Los Pinos 2800",
+    "phone": "999887766",
+    "headquarter": {
+      "headquarterId": 1,
+      "name": "sede arenales"
+    },
+    "birthDate": "05/03/1985",
+    "dirImage": "/images/employees/50.jpg",
+    "roles": [
+      {
+        "roleId": 2,
+        "name": "Veterinario"
+      }
+    ]
+  }
+]

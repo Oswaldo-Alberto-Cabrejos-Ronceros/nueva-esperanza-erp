@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Consulta General",
+    "description": "Atención médica básica para mascotas."
+  },
+  {
+    "id": 2,
+    "name": "Vacunación",
+    "description": "Aplicación de vacunas obligatorias y opcionales."
+  },
+  {
+    "id": 3,
+    "name": "Desparasitación",
+    "description": "Tratamiento preventivo y curativo contra parásitos."
+  },
+  {
+    "id": 4,
+    "name": "Cirugías",
+    "description": "Procedimientos quirúrgicos menores y mayores."
+  },
+  {
+    "id": 5,
+    "name": "Estética y Baño",
+    "description": "Baño, corte de pelo y limpieza general de mascotas."
+  },
+  {
+    "id": 6,
+    "name": "Hospitalización",
+    "description": "Cuidado y monitoreo de mascotas en estado crítico o en recuperación."
+  },
+  {
+    "id": 7,
+    "name": "Odontología",
+    "description": "Limpieza y tratamiento dental para mascotas."
+  },
+  {
+    "id": 8,
+    "name": "Laboratorio",
+    "description": "Análisis clínicos y pruebas diagnósticas."
+  },
+  {
+    "id": 9,
+    "name": "Alimentos y Accesorios",
+    "description": "Venta de comida especializada, collares, juguetes y más."
+  },
+  {
+    "id": 10,
+    "name": "Rehabilitación",
+    "description": "Terapias físicas para recuperación de lesiones o cirugías."
+  }
+]

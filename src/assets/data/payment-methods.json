@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Tarjeta de Crédito",
+    "description": "Pago con tarjeta de crédito Visa, Mastercard o American Express"
+  },
+  {
+    "id": 2,
+    "name": "Tarjeta de Débito",
+    "description": "Pago directo desde cuenta bancaria con tarjeta de débito"
+  },
+  {
+    "id": 3,
+    "name": "Transferencia Bancaria",
+    "description": "Pago mediante transferencia bancaria nacional"
+  },
+  {
+    "id": 4,
+    "name": "PayPal",
+    "description": "Pago a través de una cuenta PayPal"
+  },
+  {
+    "id": 5,
+    "name": "Yape",
+    "description": "Pago mediante el aplicativo Yape"
+  },
+  {
+    "id": 6,
+    "name": "Plin",
+    "description": "Pago mediante el aplicativo Plin"
+  },
+  {
+    "id": 7,
+    "name": "Pago en Efectivo",
+    "description": "Pago en efectivo al momento de la entrega"
+  },
+  {
+    "id": 8,
+    "name": "Criptomonedas",
+    "description": "Pago con criptomonedas como Bitcoin o Ethereum"
+  },
+  {
+    "id": 9,
+    "name": "Pago por Link",
+    "description": "Pago mediante un enlace generado por el comercio"
+  },
+  {
+    "id": 10,
+    "name": "Pago por QR",
+    "description": "Escanea un código QR para completar el pago"
+  }
+]

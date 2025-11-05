@@ -1,0 +1,1 @@
+adaptaran los datos traidos por los servicios

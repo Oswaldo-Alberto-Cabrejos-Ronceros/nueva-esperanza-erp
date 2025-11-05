@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "location": "Av. San Martín 123",
+    "district": "Ica",
+    "phone": "987654321",
+    "email": "ica1@sede.com"
+  },
+  {
+    "id": 2,
+    "location": "Calle Bolívar 456",
+    "district": "Parcona",
+    "phone": "956741258",
+    "email": "parcona@sede.com"
+  },
+  {
+    "id": 3,
+    "location": "Jr. Lima 789",
+    "district": "Subtanjalla",
+    "phone": "923874561",
+    "email": "subtanjalla@sede.com"
+  },
+  {
+    "id": 4,
+    "location": "Av. Ayabaca 321",
+    "district": "La Tinguiña",
+    "phone": "965432187",
+    "email": "tinguina@sede.com"
+  },
+  {
+    "id": 5,
+    "location": "Jr. Grau 654",
+    "district": "Pueblo Nuevo",
+    "phone": "998812345",
+    "email": "pueblonuevo@sede.com"
+  },
+  {
+    "id": 6,
+    "location": "Av. Libertadores 111",
+    "district": "Chincha Alta",
+    "phone": "987123456",
+    "email": "chincha@sede.com"
+  },
+  {
+    "id": 7,
+    "location": "Calle Comercio 222",
+    "district": "Nazca",
+    "phone": "976543210",
+    "email": "nazca@sede.com"
+  },
+  {
+    "id": 8,
+    "location": "Jr. América 333",
+    "district": "Vista Alegre",
+    "phone": "954321789",
+    "email": "vistaalegre@sede.com"
+  },
+  {
+    "id": 9,
+    "location": "Calle Real 444",
+    "district": "Tate",
+    "phone": "987341259",
+    "email": "tate@sede.com"
+  },
+  {
+    "id": 10,
+    "location": "Jr. Túpac Amaru 555",
+    "district": "Los Aquijes",
+    "phone": "945678321",
+    "email": "aquijes@sede.com"
+  }
+]

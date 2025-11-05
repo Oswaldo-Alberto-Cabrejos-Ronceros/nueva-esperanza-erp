@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "name": "ADMINISTRADOR",
+    "position": 1,
+    "description": "Administrador del sistema"
+  },
+  {
+    "id": 1,
+    "name": "VETERINARIO",
+    "position": 2,
+    "description": "Veterinario"
+  },
+  {
+    "id": 2,
+    "name": "RECEPCIONISTA",
+    "position": 3,
+    "description": "Recepcionista"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Perro" },
+  { "id": 2, "name": "Gato" },
+  { "id": 3, "name": "Conejo" },
+  { "id": 4, "name": "Hamster" },
+  { "id": 5, "name": "Cobaya" },
+  { "id": 6, "name": "Tortuga" },
+  { "id": 7, "name": "Loro" },
+  { "id": 8, "name": "Canario" },
+  { "id": 9, "name": "Iguana" },
+  { "id": 10, "name": "Hurón" }
+]

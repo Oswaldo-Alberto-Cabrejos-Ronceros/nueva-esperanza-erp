@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.app.json",
+  "include": [
+    "src/**/*.test.ts",
+    "src/**/__tests__/*.ts",
+    "env.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.vitest.tsbuildinfo",
+    "lib": ["DOM", "ESNext", "ES2015.Iterable"],
+    "types": ["node", "jsdom", "vitest"]
+  }
+}

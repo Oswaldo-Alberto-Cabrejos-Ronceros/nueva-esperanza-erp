@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Cliente",
+    "permissions": [
+      {
+        "id": 1,
+        "actionCode": "create_cliente",
+        "name": "CREAR CLIENTE",
+        "description": "Permiso para crear un nuevo cliente en el sistema",
+        "module": "Cliente"
+      },
+      {
+        "id": 2,
+        "actionCode": "read_cliente",
+        "name": "LISTAR CLIENTES",
+        "description": "Permiso para ver la lista de clientes",
+        "module": "Cliente"
+      },
+      {
+        "id": 3,
+        "actionCode": "update_cliente",
+        "name": "ACTUALIZAR CLIENTE",
+        "description": "Permiso para modificar los datos de un cliente",
+        "module": "Cliente"
+      },
+      {
+        "id": 4,
+        "actionCode": "delete_cliente",
+        "name": "ELIMINAR CLIENTE",
+        "description": "Permiso para eliminar un cliente del sistema",
+        "module": "Cliente"
+      }
+    ],
+    "authorizedPermissions": [2, 3]
+  },
+  {
+    "name": "Empleado",
+    "permissions": [
+      {
+        "id": 5,
+        "actionCode": "create_empleado",
+        "name": "CREAR EMPLEADO",
+        "description": "Permiso para crear un nuevo empleado en el sistema",
+        "module": "Empleado"
+      },
+      {
+        "id": 6,
+        "actionCode": "read_empleado",
+        "name": "LISTAR EMPLEADOS",
+        "description": "Permiso para ver la lista de empleados",
+        "module": "Empleado"
+      },
+      {
+        "id": 7,
+        "actionCode": "update_empleado",
+        "name": "ACTUALIZAR EMPLEADO",
+        "description": "Permiso para modificar los datos de un empleado",
+        "module": "Empleado"
+      },
+      {
+        "id": 8,
+        "actionCode": "delete_empleado",
+        "name": "ELIMINAR EMPLEADO",
+        "description": "Permiso para eliminar un empleado del sistema",
+        "module": "Empleado"
+      }
+    ],
+    "authorizedPermissions": [5, 6, 7]
+  },
+  {
+    "name": "Mascota",
+    "permissions": [
+      {
+        "id": 9,
+        "actionCode": "create_mascota",
+        "name": "CREAR MASCOTA",
+        "description": "Permiso para registrar una nueva mascota",
+        "module": "Mascota"
+      },
+      {
+        "id": 10,
+        "actionCode": "read_mascota",
+        "name": "LISTAR MASCOTAS",
+        "description": "Permiso para ver la lista de mascotas",
+        "module": "Mascota"
+      },
+      {
+        "id": 11,
+        "actionCode": "update_mascota",
+        "name": "ACTUALIZAR MASCOTA",
+        "description": "Permiso para modificar los datos de una mascota",
+        "module": "Mascota"
+      },
+      {
+        "id": 12,
+        "actionCode": "delete_mascota",
+        "name": "ELIMINAR MASCOTA",
+        "description": "Permiso para eliminar una mascota del sistema",
+        "module": "Mascota"
+      }
+    ],
+    "authorizedPermissions": [9, 10, 11, 12]
+  },
+  {
+    "name": "Cita",
+    "permissions": [
+      {
+        "id": 13,
+        "actionCode": "create_cita",
+        "name": "CREAR CITA",
+        "description": "Permiso para agendar una nueva cita",
+        "module": "Cita"
+      },
+      {
+        "id": 14,
+        "actionCode": "read_cita",
+        "name": "LISTAR CITAS",
+        "description": "Permiso para ver las citas registradas",
+        "module": "Cita"
+      },
+      {
+        "id": 15,
+        "actionCode": "update_cita",
+        "name": "ACTUALIZAR CITA",
+        "description": "Permiso para modificar una cita",
+        "module": "Cita"
+      },
+      {
+        "id": 16,
+        "actionCode": "delete_cita",
+        "name": "ELIMINAR CITA",
+        "description": "Permiso para eliminar una cita",
+        "module": "Cita"
+      }
+    ],
+    "authorizedPermissions": [13, 14]
+  }
+]

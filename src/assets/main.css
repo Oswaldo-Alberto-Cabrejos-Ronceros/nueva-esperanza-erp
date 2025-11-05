@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+@import 'tailwindcss-primeui';
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+  --breakpoint-xs: 30rem;
+  --breakpoint-3xl: 112rem;
+}
+
+body {
+  @apply font-inter ;
+
+}
+
+.textSm {
+  @apply text-sm;
+}
+
+.textBase {
+  @apply text-base;
+}
+
+.textLg {
+  @apply text-lg;
+}
+
+.h3 {
+  @apply text-xl;
+}
+
+.h2 {
+  @apply text-2xl;
+}
+
+.h1 {
+  @apply text-3xl;
+}
+
+.button-the-header {
+  @apply bg-primary-900
+  dark:bg-primary-950
+  border-none
+  hover:bg-primary-950
+  dark:hover:bg-primary-900
+  text-surface-0
+}
+
+.layout-full-screen-flex{
+  @apply w-full min-h-screen flex justify-center
+}
+
+.layout-principal-flex{
+  @apply w-full flex justify-center flex-1
+}
+
+.card-principal-color-neutral{
+ @apply h-min min-w-full flex dark:bg-surface-800 px-4 py-4 min-h-full
+}
+
+.card-principal-color-inherit{
+  @apply h-min min-w-full flex dark:text-surface-0 dark:bg-surface-800 px-4 py-4
+}
+
+.card-dialog-form-layout{
+  @apply h-auto w-[80vw] md:w-auto lg:w-[80vw] xl:w-auto bg-transparent shadow-none p-0
+}
+
+.form-dialog-layout{
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4
+}
+
+.form-dialog-layout-col-2{
+   @apply grid grid-cols-1 md:grid-cols-2 gap-4
+}
+
+.form-dialog-layout-flex-col{
+  @apply flex flex-col items-center gap-4 justify-center
+}
+
+.button-form-container-grid-end{
+  @apply flex items-center justify-center col-span-full
+}
+
+.form-search-grid-col-5{
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4
+}
+
+.form-button-search-container-grid-col-5{
+  @apply flex items-end justify-center md:col-start-2 lg:col-start-3 xl:col-start-4 2xl:col-start-5
+}
+
+.form-button-search-container-grid-col-5-end{
+    @apply flex items-end justify-end md:col-start-2 lg:col-start-3 xl:col-start-4 2xl:col-start-5
+}
+
+.card-primary{
+  @apply shadow-none border-1 border-neutral-300 dark:border-neutral-700
+}

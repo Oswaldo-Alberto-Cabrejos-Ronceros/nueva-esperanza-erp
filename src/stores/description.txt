@@ -1,0 +1,1 @@
+stores en pinia para manejo de estado globales
