@@ -14,8 +14,7 @@ import type { FormValues } from '@/validation-schemas-forms/schema-login'
 import { toTypedSchema } from '@vee-validate/yup'
 import { useForm } from 'vee-validate'
 import { useThemeStore } from '@/stores/themeStore'
-import { computed, ref } from 'vue'
-import { SelectButton } from 'primevue'
+import { computed } from 'vue'
 import ProgressSpinner from 'primevue/progressspinner'
 
 //props
@@ -30,21 +29,17 @@ const { handleSubmit, errors, defineField } = useForm<FormValues>({
   initialValues: {
     email: '',
     password: '',
-    type: 'Cliente',
   },
 })
 
 // Campos individuales con binding
 const [email, emailAttrs] = defineField('email')
 const [password, passwordAttrs] = defineField('password')
-const [type, typeAttrs] = defineField('type')
 
 //for theme
 const storeTheme = useThemeStore()
 const imageLogo = computed(() => (storeTheme.isDark ? LogoWhite : LogoRose))
 
-//options for selectButton
-const options = ref(['Cliente', 'Empleado'])
 
 //define emit
 const emit = defineEmits(['login'])
@@ -54,8 +49,7 @@ const onSubmit = handleSubmit((values) => {
     loginRequest: {
       email: values.email,
       password: values.password,
-    },
-    isEmployee: type.value === 'Cliente' ? false : true,
+    }
   })
 })
 </script>
@@ -81,18 +75,6 @@ const onSubmit = handleSubmit((values) => {
         @submit.prevent="onSubmit"
         class="flex flex-col gap-4 w-full max-w-lg xs:min-w-96 sm:min-w-md"
       >
-        <div class="w-full flex flex-col gap-1 items-center justify-center">
-          <SelectButton
-            :allowEmpty="false"
-            v-bind="typeAttrs"
-            v-model="type"
-            :invalid="Boolean(errors.type)"
-            :options="options"
-          />
-          <Message v-if="errors.type" severity="error" size="small" variant="simple">
-            {{ errors.type }}
-          </Message>
-        </div>
         <!-- email -->
         <label>Email</label>
         <InputGroup>

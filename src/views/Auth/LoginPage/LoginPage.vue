@@ -8,7 +8,7 @@ import { useToast } from 'primevue/usetoast'
 import { watch } from 'vue'
 
 //get methods for use
-const { loading, error, loginClient, loginEmployee } = useAuthentication()
+const { loading, error, loginEmployee } = useAuthentication()
 //for router
 const router = useRouter()
 
@@ -42,8 +42,7 @@ watch(()=>error.loginEmployee,
 
 
 //fuction for get info for cardLogin
-const login = async (loginRequest: { loginRequest: LoginSchema; isEmployee: boolean }) => {
-  if (loginRequest.isEmployee) {
+const login = async (loginRequest: { loginRequest: LoginSchema }) => {
     const user = await loginEmployee(
       loginRequest.loginRequest.email,
       loginRequest.loginRequest.password,
@@ -66,10 +65,7 @@ const login = async (loginRequest: { loginRequest: LoginSchema; isEmployee: bool
         router.push('/login')
         break
     }
-  } else {
-    await loginClient(loginRequest.loginRequest.email, loginRequest.loginRequest.password)
-    router.push('/client/')
-  }
+
 }
 </script>
 <template>
@@ -78,7 +74,7 @@ const login = async (loginRequest: { loginRequest: LoginSchema; isEmployee: bool
       <SwitchTheme />
     </div>
     <CardLogin
-      :loading="Boolean(loading.loginClient) || Boolean(loading.loginEmployee)"
+      :loading="Boolean(loading.loginEmployee)"
       @login="login($event)"
       class="self-center"
     />

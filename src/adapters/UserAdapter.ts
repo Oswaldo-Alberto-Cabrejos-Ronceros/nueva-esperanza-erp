@@ -1,6 +1,5 @@
 import type { UserSession } from '@/models/UserSession'
 import type { User, UserClientRequest } from '@/services/Authentication/domain/models/User'
-import { GroupedPermissionsAdapter } from './GroupedPermissionsAdapter'
 import type { UserClientRegister } from '@/models/UserClientRegister'
 import { DateAdapter } from './DateAdapter'
 
@@ -10,10 +9,7 @@ export class UserAdapter {
     return {
       userId: user.userId,
       entityId: user.entityId,
-      mainRole: user.mainRole,
-      groupedPermissions: user.groupedPermissions
-        ? GroupedPermissionsAdapter.toGroupedPermissionView(user.groupedPermissions)
-        : {},
+      mainRole: user.mainRole
     }
   }
   static userClientRegisterToUserClientRequest(

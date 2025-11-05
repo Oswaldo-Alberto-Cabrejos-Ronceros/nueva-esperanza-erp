@@ -58,9 +58,6 @@ const {
   createEmployee,
   updateEmployee,
   blockEmployee,
-  searchEmployees,
-  restoreEmployee,
-  getEmployeeMyInfo,
 } = useEmployee()
 
 const typedError = error as Record<string, string | null>

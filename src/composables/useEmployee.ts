@@ -1,14 +1,6 @@
 import { useAsyncHandler } from './useAsyncHandler'
 import { employeeUsesCases } from '@/dependency-injection/employee.container'
-import { EmployeeAdapter } from '@/adapters/EmployeeAdapter'
-import type { Employee } from '@/services/Employee/domain/models/Employee'
-import type { Employee as EmployeeView } from '@/models/Employee'
-import type { PageResponse } from '@/services/models/PageResponse'
-import type { FormValues as EmployeeAddSchema } from '@/validation-schemas-forms/schema-add-employee'
-import type { FormValues as EmployeeEditSchema } from '@/validation-schemas-forms/schema-edit.employee'
-import type { MyInfoEmployee } from '@/services/Employee/domain/models/Employee'
-import type { MyInfoEmployee as MyInfoEmployeeView } from '@/models/MyInfoEmployee'
-import type { EmployeeList as EmployeeListView } from '@/models/EmployeeList'
+import type { Employee, EmployeeRequest } from '@/services/Employee/domain/models/Employee'
 
 export function useEmployee() {
   //fet from useAsyncHandle
@@ -16,99 +8,49 @@ export function useEmployee() {
 
   //expose use cases
 
-  const blockEmployee = async (employeeId: number, blockNote: string) => {
-    await runUseCase('blockEmployee', () =>
-      employeeUsesCases.blockEmployee.execute(employeeId, blockNote),
-    )
+  const blockEmployee = async (employeeId: number) => {
+    await runUseCase('blockEmployee', () => employeeUsesCases.blockEmployee.execute(employeeId))
   }
 
   //create
-
-  const createEmployee = async (employeeAddSchema: EmployeeAddSchema): Promise<EmployeeView> => {
-    const employeeRequest = EmployeeAdapter.fromSchemaAddToEmployeeRequest(employeeAddSchema)
+  const createEmployee = async (employeeRequest: EmployeeRequest): Promise<Employee> => {
     const employee = await runUseCase('createEmployee', () =>
       employeeUsesCases.createEmployee.execute(employeeRequest),
     )
-    return EmployeeAdapter.toEmployeeView(employee)
+    return employee
   }
 
-  const getAllEmployees = async (): Promise<EmployeeView[]> => {
+  const getAllEmployees = async (): Promise<Employee[]> => {
     const employees: Employee[] = await runUseCase('getAllEmployees', () =>
       employeeUsesCases.getAllEmployees.execute(),
     )
     //adapt
-    return employees.map((employee) => EmployeeAdapter.toEmployeeView(employee))
+    return employees
   }
 
-  const getEmployeeById = async (employeeId: number): Promise<EmployeeView> => {
+  const getEmployeeById = async (employeeId: number): Promise<Employee> => {
     const employee: Employee = await runUseCase('getEmployeeById', () =>
       employeeUsesCases.getEmployeeById.execute(employeeId),
     )
-    return EmployeeAdapter.toEmployeeView(employee)
+    return employee
   }
 
-  const getEmployeeMyInfo = async (employeeId: number): Promise<MyInfoEmployeeView> => {
-    const myInfoEmployee: MyInfoEmployee = await runUseCase('getEmployeeMyInfo', () =>
-      employeeUsesCases.getEmployeeMyInfo.execute(employeeId),
+  const getEmployeeByDocumentNumero = async (documentoNumero: string): Promise<Employee> => {
+    const employee: Employee = await runUseCase('getEmployeeById', () =>
+      employeeUsesCases.getEmployeeByDocumentoNumero.execute(documentoNumero),
     )
-    return EmployeeAdapter.fromMyInfoEmployeeToMyInfoEmployeeView(myInfoEmployee)
+    return employee
   }
-
-  const restoreEmployee = async (employeeId: number) => {
-    await runUseCase('restoreEmployee', () => employeeUsesCases.restoreEmployee.execute(employeeId))
-  }
-
-  const searchEmployees = async (
-    status: boolean,
-    dni?: string,
-    cmvp?: string,
-    name?: string,
-    lastName?: string,
-    headquarterName?: string,
-    rolName?: string,
-    page?: number,
-    size?: number,
-  ): Promise<PageResponse<EmployeeListView>> => {
-    const pageEmployee = await runUseCase('searchEmployees', () =>
-      employeeUsesCases.searchEmployees.execute(
-        status,
-        dni,
-        cmvp,
-        name,
-        lastName,
-        headquarterName,
-        rolName,
-        page,
-        size,
-      ),
-    )
-    const employeesView = pageEmployee.content.map((employee) =>
-      EmployeeAdapter.fromEmployeeListToEmployeeListView(employee),
-    )
-    return {
-      ...pageEmployee,
-      content: employeesView,
-    }
-  }
-
-  //update
 
   const updateEmployee = async (
     employeeId: number,
-    employeeEditSchema: EmployeeEditSchema,
-  ): Promise<EmployeeView> => {
-    const employeeRequest = EmployeeAdapter.fromSchemaEditToEmployeeRequest(employeeEditSchema)
+    employeeRequest: Employee,
+  ): Promise<Employee> => {
     const employee = await runUseCase('updateEmployee', () =>
       employeeUsesCases.updateEmployee.execute(employeeId, employeeRequest),
     )
 
-    return EmployeeAdapter.toEmployeeView(employee)
-  }
-
-  const getVeterinarianPanelStatsToday = async (veterinarianId: number) => {
-    return await runUseCase('getVeterinarianPanelStatsToday', () =>
-      employeeUsesCases.getVeterinarianPanelStatsToday.execute(veterinarianId),
-    )
+    return employee
   }
 
   return {
@@ -118,10 +60,7 @@ export function useEmployee() {
     blockEmployee,
     getAllEmployees,
     getEmployeeById,
-    getEmployeeMyInfo,
-    restoreEmployee,
-    searchEmployees,
     updateEmployee,
-    getVeterinarianPanelStatsToday,
+    getEmployeeByDocumentNumero,
   }
 }

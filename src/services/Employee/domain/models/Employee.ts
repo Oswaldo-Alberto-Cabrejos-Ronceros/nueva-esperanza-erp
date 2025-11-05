@@ -1,42 +1,30 @@
+import { UserType } from "../enums/UserType"
+
 export interface Employee {
-  employeeId: number
-  dni: string
-  cmvp?: string
-  name: string
-  lastName: string
-  address: string
-  phone: string
-  birthDate: string
-  dirImage: string
-  headquarter: {
-    headquarterId: number
-    name: string
-  }
+  id: number
+  nombres: string
+  apellidos: string
+  numeroDocumento: string
+  cargo: string
+  salario: number
+  fechaNacimiento: Date
+  fechaContratacion: Date
   user?: {
-    userId?: number
+    id?: number
     email: string
     password?: string
+    userType: UserType
   }
-  roles: { roleId: number; name: string }[]
 }
 
 export interface EmployeeRequest {
-  dni: string
-  cmvp?: string
-  name: string
-  lastName: string
-  address: string
-  phone: string
-  birthDate: string
-  dirImage: string
-  headquarter: {
-    headquarterId: number
-  }
-  user?: {
-    email: string
-    password: string
-  }
-  roles: { roleId: number }[]
+  nombres: string
+  apellidos: string
+  numeroDocumento: string
+  cargo: string
+  salario: number
+  fechaNacimiento: Date
+  fechaContratacion: Date
 }
 
 export interface MyInfoEmployee {
