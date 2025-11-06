@@ -4,9 +4,7 @@ import LoginPage from '@/views/Auth/LoginPage/LoginPage.vue'
 import HomePageAdministrador from '@/views/Employee/HomePageAdministrador/HomePageAdministrador.vue'
 import PerfilPage from '@/views/Common/PerfilPage/PerfilPage.vue'
 import EmployeeManagementPage from '@/views/Employee/EmployeeManagementPage/EmployeeManagementPage.vue'
-import ClientManagementPage from '@/views/Employee/ClientManagementPage/ClientManagementPage.vue'
 import PageNotFound from '@/views/Common/PageNotFound/PageNotFound.vue'
-import HomePageRecepcionist from '@/views/Employee/HomePageRecepcionist/HomePageRecepcionist.vue'
 //client
 import { useAuthentication } from '@/composables/useAuthentication'
 
@@ -65,12 +63,6 @@ const router = createRouter({
               component: EmployeeManagementPage,
               meta: { requiresAuth: true, roles: ['ADMINISTRADOR'] },
             },
-            {
-              path: 'client-management',
-              name: 'administrator-client-management',
-              component: ClientManagementPage,
-              meta: { requiresAuth: true, roles: ['ADMINISTRADOR'] },
-            },
           ],
         },
         {
@@ -106,7 +98,7 @@ const router = createRouter({
             {
               path: 'home',
               name: 'vendedor-home',
-              component: HomePageRecepcionist,
+              component: HomePageAdministrador,
               meta: { requiresAuth: true, roles: ['VENDEDOR'] },
             },
             {
