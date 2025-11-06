@@ -22,7 +22,7 @@ onMounted(() => {
 const roleMap: Record<string, number> = {
   ADMINISTRADOR: 0,
   TRABAJADOR: 1,
-  VENDEDOR: 2
+  VENDEDOR: 2,
 }
 
 const cleanRole = (role: string): string => {
@@ -42,24 +42,64 @@ const items = ref<MenuItem[][]>([
       to: '/employee/administrator/employee-management',
     },
     {
-            label: 'Proveedores',
+      label: 'Proveedores',
       icon: 'pi pi-truck',
       to: '/employee/administrator/proveedor-management',
-    }
+    },
+    {
+      label: 'Items',
+      icon: 'pi pi-objects-column',
+      to: '/employee/administrator/home',
+    },
+    {
+      label: 'Inventario',
+      icon: 'pi pi-box',
+      to: '/employee/administrator/home',
+    },
+    {
+      label: 'Ubicaciones',
+      icon: 'pi pi-map',
+      to: '/employee/administrator/home',
+    },
+    {
+      label: 'Sensores',
+      icon: 'fa-solid fa-cloud-meatball',
+      to: '/employee/administrator/home',
+    },
+    {
+      label: 'Riegos',
+      icon: 'fa-solid fa-droplet',
+      to: '/employee/administrator/home',
+    },
+    {
+      label: 'Clientes',
+      icon: 'fa-solid fa-user-tag',
+      to: '/employee/administrator/home',
+    },
+    {
+      label: 'Productos',
+      icon: 'fa-solid fa-wine-glass',
+      to: '/employee/administrator/home',
+    },
+    {
+      label: 'Ventas',
+      icon: 'fa-solid fa-bag-shopping',
+      to: '/employee/administrator/home',
+    },
   ],
   [
     {
       label: 'Inicio',
       icon: 'pi pi-home',
       to: '/employee/veterinary/home',
-    }
+    },
   ],
   [
     {
       label: 'Inicio',
       icon: 'pi pi-home',
       to: '/employee/receptionist/home',
-    }
+    },
   ],
 ])
 
@@ -93,7 +133,9 @@ const toggleMenu = () => {
       ]"
     >
       <TheHeader @show-menu="toggleMenu()" :show-menu="showMenu" :role="mainRole" />
-      <section class="flex-1 h-auto py-1 px-0.5 xs:px-4 transition-all duration-200 ease-out flex flex-col">
+      <section
+        class="flex-1 h-auto py-1 px-0.5 xs:px-4 transition-all duration-200 ease-out flex flex-col"
+      >
         <router-view />
       </section>
     </main>
