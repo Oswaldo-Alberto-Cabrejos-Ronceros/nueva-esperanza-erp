@@ -40,6 +40,11 @@ const items = ref<MenuItem[][]>([
       label: 'Empleados',
       icon: 'fa-solid fa-users-line',
       to: '/employee/administrator/employee-management',
+    },
+    {
+            label: 'Proveedores',
+      icon: 'pi pi-truck',
+      to: '/employee/administrator/proveedor-management',
     }
   ],
   [

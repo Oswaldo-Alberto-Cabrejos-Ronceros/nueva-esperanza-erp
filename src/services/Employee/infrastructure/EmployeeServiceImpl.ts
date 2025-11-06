@@ -1,18 +1,19 @@
 import type { EmployeeService } from '../domain/services/EmployeeService'
 import type { HttpClient } from '@/services/Http/model/HttpClient'
-import type {
-  Employee,
-  EmployeeRequest,
-} from '../domain/models/Employee'
+import type { Employee, EmployeeRequest } from '../domain/models/Employee'
 
 export class EmployeeServiceImpl implements EmployeeService {
   //inject httpClient
   constructor(private readonly httpClient: HttpClient) {}
-  async getEmployeeByDocumentoNumero(documentoNumero: string): Promise<Employee> {
-    const response = await this.httpClient.get<Employee>(`${this.urlBase}/numero_documento/${documentoNumero}`);
-    return response.data;
-  }
+
   private urlBase = '/empleados'
+
+  async getEmployeeByDocumentoNumero(documentoNumero: string): Promise<Employee> {
+    const response = await this.httpClient.get<Employee>(
+      `${this.urlBase}/numero_documento/${documentoNumero}`,
+    )
+    return response.data
+  }
 
   async getAllEmployees(): Promise<Employee[]> {
     const response = await this.httpClient.get<Employee[]>(this.urlBase)
