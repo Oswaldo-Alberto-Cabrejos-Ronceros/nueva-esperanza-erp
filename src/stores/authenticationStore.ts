@@ -1,27 +1,27 @@
 import { defineStore } from 'pinia'
-import type { UserSession } from '@/models/UserSession'
+import type { AuthenticationResponse } from '@/services/Authentication/domain/models/User'
 
 export const useAuthenticationStore = defineStore('authentication', {
   state: () => ({
-    user: null as null | UserSession,
+    user: null as null | AuthenticationResponse,
   }),
   getters: {
-    userRole: (state) => state.user?.mainRole || null,
-    entityId:(state)=>state.user?.entityId||null
+    userRole: (state) => state.user?.type || null,
+    userId:(state)=>state.user?.usuarioId||null
   },
   actions: {
     recoverUserFromSession(){
       const userString=localStorage.getItem('user')
       if(userString){
        try {
-         const userSession:UserSession=JSON.parse(userString)
+         const userSession:AuthenticationResponse=JSON.parse(userString)
          this.user=userSession
        } catch (error) {
         console.error('Error al recuperar usuario',error)
        }
       }
     },
-    setUser(user: UserSession) {
+    setUser(user: AuthenticationResponse) {
       this.user = user
       localStorage.setItem('user', JSON.stringify(this.user))
     },

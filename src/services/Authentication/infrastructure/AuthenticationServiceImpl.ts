@@ -1,21 +1,17 @@
 import type { AuthenticationService } from '../domain/services/AuthenticationService'
-import type { User, UserClientRequest } from '../domain/models/User'
+import type { AuthenticationResponse, User, UserClientRequest } from '../domain/models/User'
 import { safeFetch } from '@/utilities/safeFetch'
 
 export class AuthenticationServiceImpl implements AuthenticationService {
-  async loginEmployee(email: string, password: string): Promise<User> {
-    const data = await safeFetch<User>(`${import.meta.env.VITE_API_URL}/auth/login/employee`, {
+  
+  async loginEmployee(email: string, password: string): Promise<AuthenticationResponse> {
+    const data = await safeFetch<AuthenticationResponse>(`${import.meta.env.VITE_API_URL}/auth/login`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password }),
       credentials: 'include',
     })
-    return {
-      userId: data.userId,
-      entityId: data.entityId,
-      mainRole: data.mainRole,
-      groupedPermissions: data.groupedPermissions,
-    }
+    return data;
   }
   async loginClient(email: string, password: string): Promise<User> {
     const data = await safeFetch<User>(`${import.meta.env.VITE_API_URL}/auth/login/client`, {

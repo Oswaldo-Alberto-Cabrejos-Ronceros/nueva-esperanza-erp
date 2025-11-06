@@ -5,6 +5,11 @@ export interface User {
   groupedPermissions: GroupedPermissions
 }
 
+export interface AuthenticationResponse {
+usuarioId:number,
+type:string
+}
+
 export interface GroupedPermissions {
   animal?: string[]
   breed?: string[]

@@ -7,6 +7,7 @@ import EmployeeManagementPage from '@/views/Employee/EmployeeManagementPage/Empl
 import PageNotFound from '@/views/Common/PageNotFound/PageNotFound.vue'
 //client
 import { useAuthentication } from '@/composables/useAuthentication'
+import HomeVendedorPage from '@/views/Employee/HomeVendedorPage/HomeVendedorPage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -73,7 +74,7 @@ const router = createRouter({
             {
               path: 'home',
               name: 'manager-home',
-              component: HomePageAdministrador,
+              component: HomeVendedorPage,
               meta: { requiresAuth: true, roles: ['TRABAJADOR'] },
             },
             {
@@ -98,7 +99,7 @@ const router = createRouter({
             {
               path: 'home',
               name: 'vendedor-home',
-              component: HomePageAdministrador,
+              component: HomeVendedorPage,
               meta: { requiresAuth: true, roles: ['VENDEDOR'] },
             },
             {

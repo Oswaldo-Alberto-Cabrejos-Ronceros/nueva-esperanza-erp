@@ -47,17 +47,14 @@ const login = async (loginRequest: { loginRequest: LoginSchema }) => {
       loginRequest.loginRequest.email,
       loginRequest.loginRequest.password,
     )
-    switch (user.mainRole) {
-      case 'Recepcionista':
-        router.push('/employee/receptionist/')
+    switch (user.type) {
+      case 'TRABAJADOR':
+        router.push('/employee/employee/')
         break
-      case 'Veterinario':
-        router.push('/employee/veterinary/')
+      case 'VENDEDOR':
+        router.push('/employee/vendedor/')
         break
-      case 'Encargado Sede':
-        router.push('/employee/manager/')
-        break
-      case 'Administrador':
+      case 'ADMINISTRADOR':
         router.push('/employee/administrator/')
         break
       default:
